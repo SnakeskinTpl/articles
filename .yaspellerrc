@@ -1,0 +1,17 @@
+{
+  "lang": "en,ru",
+
+  "ignoreUppercase": true,
+  "ignoreUrls": true,
+
+  "fileExtensions": [
+    "md"
+  ],
+
+  "excludeFiles": [
+    ".git",
+    "node_modules",
+    "bower_components",
+    "demo"
+  ]
+}

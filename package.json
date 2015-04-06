@@ -1,0 +1,19 @@
+{
+  "name": "snakeskin-articles",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SnakeskinTpl/articles"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SnakeskinTpl/articles/issues"
+  },
+  "homepage": "https://github.com/SnakeskinTpl/articles",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-run": "^1.6.7",
+    "gulp-typograf": "^1.0.5",
+    "yaspeller": "^1.1.0"
+  }
+}
