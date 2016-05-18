@@ -5,7 +5,9 @@
 Проекту уже более 3.5 лет, и мне кажется, что все детские болезни он пережил, поэтому я могу поделиться результатом с сообществом.
 
 [GitHub](https://github.com/SnakeskinTpl/Snakeskin)
+
 [Документация](http://snakeskintpl.github.io/docs/index-ru.html) (английская версия пока не сделана)
+
 [Смежные проекты](https://github.com/SnakeskinTpl)
 
 ## Что, зачем и почему
