@@ -1,11 +1,8 @@
 {
   "lang": "en,ru",
 
-  "ignoreUppercase": true,
-  "ignoreUrls": true,
-
   "fileExtensions": [
-    "md"
+    ".md"
   ],
 
   "excludeFiles": [

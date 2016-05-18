@@ -14,6 +14,6 @@
     "gulp": "^3.8.11",
     "gulp-run": "^1.6.7",
     "gulp-typograf": "^1.0.5",
-    "yaspeller": "^1.1.0"
+    "yaspeller": "^2.1.0"
   }
 }
