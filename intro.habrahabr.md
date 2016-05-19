@@ -388,6 +388,30 @@ JS код может вызывать шаблоны SS, а SS может имп
 
 [Подробнее](http://snakeskintpl.github.io/docs/api-ru.html#tag--%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BF%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F).
 
+#### Асинхронные шаблоны
+
+SS позволяет создавать шаблоны-генераторы и async-шаблоны, а также содержит ряд директив для удобного использования
+популярной библиотеки Async.
+
+```
+- namespace myApp
+
+- async template main(db)
+  - forEach await db.getData() => el
+    {el}
+
+- template *foo(data)
+  - for var i = 0; i < data.length; i++
+    {data.value}
+    
+    - if i % 1e3 === 0
+      - yield
+```
+
+[Подробнее](http://snakeskintpl.github.io/docs/api-ru.html#template--%D0%9C%D0%BE%D0%B4%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80%D1%8B_%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%B0).
+
+Также см. раздел ["Директивы для асинхронной работы"](http://snakeskintpl.github.io/docs/api-ru.html#series).
+
 #### Поддержка генерации как строк, так и DocumentFragment
 
 Шаблоны Snakeskin по умолчанию возвращают строки, но также могут генерировать и DocumentFragment, а также есть возможность
