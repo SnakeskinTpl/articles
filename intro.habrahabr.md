@@ -121,7 +121,7 @@ Snakeskin решает проблему "простыни" кода, code-reuse 
   Hello world!
 ```
 
-после трансляции превратится в:
+после трансляции превратится в
 
 ```
 if (exports.demo === 'undefined') {
@@ -151,6 +151,8 @@ SS, подобно Stylus, поддерживает 2 разных вида си
 
 Плюс такого подхода, что его удобно использовать для генерации текста, который основан на "управляемых пробелах", например,
 Markdown. Также при таком подходе "блочные" директивы (т.е. которые могут включать в себя текст) обязаны явно закрываться.
+
+**Примечание:** для генерации текста, где используются символы фигурных скобок в SS есть [специальный механизм](http://snakeskintpl.github.io/docs/guide-ru.html#basics--%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%80%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%B8%D0%BD%D1%82%D0%B0%D0%BA%D1%81%D0%B8%D1%81).
 
 * основанный на управляемых пробелах и идеологически близкий к Jade и HAML, перепишем пример данный выше:
 
@@ -337,11 +339,11 @@ JS код может вызывать шаблоны SS, а SS может имп
 
 [Подробнее](http://snakeskintpl.github.io/docs/guide-ru.html#introTemplates--%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0_%D1%81_%D0%BF%D1%80%D0%BE%D0%B1%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%BC%D0%B8_%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%B0%D0%BC%D0%B8).
 
-[Также](http://snakeskintpl.github.io/docs/api-ru.html#ignoreWhitespaces) см раздел "Работа с пробельными символами".
+Также см. раздел ["Работа с пробельными символами"](http://snakeskintpl.github.io/docs/api-ru.html#ignoreWhitespaces).
 
 #### Поддержка ссылок на родительский класс
 
-Подобно Sass или Stylus в SS есть способ ссылаться на родительский класс - это удобно при использовании БЭМ подхода.
+Подобно Sass или Stylus, в SS есть способ ссылаться на родительский класс - это удобно при использовании БЭМ подхода.
 
 ```
 - namespace myApp
@@ -388,7 +390,7 @@ JS код может вызывать шаблоны SS, а SS может имп
 
 #### Интеграция со всеми основными системами сборок
 
-Gulp, Grunt, Webpack.
+[Gulp](https://github.com/SnakeskinTpl/gulp-snakeskin), [Grunt](https://github.com/SnakeskinTpl/grunt-snakeskin), [Webpack](https://github.com/SnakeskinTpl/snakeskin-loader).
 
 #### Хорошая кодовая база
 
@@ -405,7 +407,7 @@ ADVANCED. Код хорошо документирован в соотвеств
 и продолжат изучение.
 
 Если кто желает помочь с переводом доки на английский, то прошу присылать PR на файлы в папке 
-https://github.com/SnakeskinTpl/docs/tree/gh-pages/docs/en.
+[en](https://github.com/SnakeskinTpl/docs/tree/gh-pages/docs/en).
 
 О найденых багах пишите в [Issues](https://github.com/SnakeskinTpl/Snakeskin/issues) на GitHub-e проекта.
 Задавать вопросы можно там же.
