@@ -388,6 +388,11 @@ JS код может вызывать шаблоны SS, а SS может имп
 
 [Подробнее](http://snakeskintpl.github.io/docs/api-ru.html#tag--%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BF%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D1%8F).
 
+#### Поддержка генерации как строк, так и DocumentFragment
+
+Шаблоны Snakeskin по умолчанию возвращают строки, но также могут генерировать и DocumentFragment, а также есть возможность
+перегрузить эту операцию, например, чтобы сгенерировать свой VDOM.
+
 #### Интеграция со всеми основными системами сборок
 
 [Gulp](https://github.com/SnakeskinTpl/gulp-snakeskin), [Grunt](https://github.com/SnakeskinTpl/grunt-snakeskin), [Webpack](https://github.com/SnakeskinTpl/snakeskin-loader).
