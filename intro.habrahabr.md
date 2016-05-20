@@ -9,7 +9,7 @@
 
 [Документация](http://snakeskintpl.github.io/docs/index-ru.html)
 
-[Смежные проекты](https://github.com/SnakeskinTpl)
+[Плагины для Gulp, Grunt, Webpack и прочее](https://github.com/SnakeskinTpl)
 
 ## Немного истории
 
