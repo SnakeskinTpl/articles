@@ -5,7 +5,7 @@
 Проекту больше трех лет, всеми детскими болезнями, я полагаю, он благополучно переболел (и излечился), 
 поэтому хочу поделиться результатом.
 
-[GitHub](https://github.com/SnakeskinTpl/Snakeskin)
+[Основной репозиторий](https://github.com/SnakeskinTpl/Snakeskin)
 
 [Документация](http://snakeskintpl.github.io/docs/index-ru.html)
 
