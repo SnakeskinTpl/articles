@@ -126,7 +126,7 @@ http.createServer((req, res) => {
     Hello {{yourName}}!
 ```
 
-**Результат работы**
+**Результат работы `main`**
 
 ```html
 <label>
