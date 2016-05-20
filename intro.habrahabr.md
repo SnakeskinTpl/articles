@@ -65,7 +65,7 @@ class Select {
 const newSelect = new Select([{value: 1, label: 'Вариант 1'}])
 ```
 
-Тут в основной файл на JS подключается как модуль файл на Snakeskin (такую бесшовную интеграцию дает, например, [плагин для WebPack](https://github.com/SnakeskinTpl/snakeskin-loader)). Из него импортируем namespace **select**, и объявляем класс **Select**. При создании инстанса Select, мы выполняем функцию main (в которую был транслирован шаблон main), и присваиваем свойству template результат её работы - для newSelect он будет такой: 
+Тут в основной файл на JS подключается как модуль файл на Snakeskin (такую бесшовную интеграцию дает, например, [плагин для WebPack](https://github.com/SnakeskinTpl/snakeskin-loader)). Из него импортируем namespace `select`, и объявляем класс `Select`. При создании инстанса `Select`, мы выполняем функцию `main` (в которую был транслирован шаблон `main`), и присваиваем свойству `template` результат её работы - для `newSelect` он будет таким: 
 
 ```html
 <select>
