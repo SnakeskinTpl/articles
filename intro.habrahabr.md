@@ -356,7 +356,27 @@ JS код может вызывать шаблоны SS, а SS может имп
 
 [Подробнее](http://snakeskintpl.github.io/docs/guide-ru.html#localization).
 
-#### Встроенный механизм интеграции с другими шаблонами
+#### Встроенный механизм интеграции с другими шаблонами (в том числе с JSX)
+
+**Пример с React:**
+
+```
+- namespace myComponent
+- template render()
+  < .hello
+    {{ this.name }}
+```
+
+```js
+- import React from 'react';
+- import { myComponent } from './myComponent.ss';
+
+const Foo = React.createClass({
+  render: myComponent.render
+});
+```
+
+Для бесшовной интеграции используется WebPack плагин c флагом `jsx`.
 
 [Подробнее](http://snakeskintpl.github.io/docs/guide-ru.html#introLiteral).
 
@@ -461,6 +481,10 @@ SS позволяет создавать шаблоны-генераторы и 
 #### Поддержка генерации как строк, так и DocumentFragment
 
 Шаблоны Snakeskin по умолчанию возвращают строки, но также могут генерировать и DocumentFragment, а также есть возможность перегрузить эту операцию, например, чтобы сгенерировать свой vDOM.
+
+#### Отладчик кода
+
+В Snakeskin встроен мощный отладчик кода, который помогает находить большинство синтаксических и логических ошибок при трансляции шаблонов.
 
 #### Интеграция со всеми основными системами сборок
 
