@@ -366,8 +366,8 @@ JS код может вызывать шаблоны SS, а SS может имп
 ```
 
 ```js
-- import React from 'react';
-- import { myComponent } from './myComponent.ss';
+import React from 'react';
+import { myComponent } from './myComponent.ss';
 
 const Foo = React.createClass({
   render: myComponent.render
