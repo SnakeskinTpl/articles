@@ -5,11 +5,15 @@
 Проекту больше трех лет, всеми детскими болезнями, я полагаю, он благополучно переболел (и излечился),
 поэтому хочу поделиться результатом.
 
+[Демка](http://codepen.io/kobezzza/pen/zrJNXx)
+
 [Основной репозиторий](https://github.com/SnakeskinTpl/Snakeskin)
 
 [Документация](http://snakeskintpl.github.io/docs/index-ru.html)
 
 [Плагины для Gulp, Grunt, Webpack и прочее](https://github.com/SnakeskinTpl)
+
+[Gitter](https://gitter.im/SnakeskinTpl/Snakeskin) -- здесь можно задать любой интересующий вопрос
 
 ## Немного истории
 
@@ -579,8 +583,8 @@ Google Closure Compiler в режиме `ADVANCED`. Код хорошо доку
 Искренне надеюсь, что Snakeskin заинтересовал вас, вы опробуете его, будете с удовольствием пользоваться и недоумевать,
 как вы раньше без него жили :)
 
-О найденных багах пишите в [Issues](https://github.com/SnakeskinTpl/Snakeskin/issues) на GitHub-e проекта.
-Задавать вопросы можно там же, либо в [Gitter](https://gitter.im/SnakeskinTpl/Snakeskin), я всегда с удовольствием
-отвечу и подскажу.
+О найденных багах пишите в [Issues](https://github.com/SnakeskinTpl/Snakeskin/issues) на GitHub-e проекта, а появившиеся вопросы
+задавайте вопросы здесь в комментариях либо в [Gitter](https://gitter.im/SnakeskinTpl/Snakeskin)'е -- я всегда с удовольствием
+отвечу и объясню.
 
-Всем спасибо, и удачи!
+Всем спасибо и удачи!
