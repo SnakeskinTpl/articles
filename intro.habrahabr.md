@@ -177,11 +177,11 @@ http.createServer((req, res) => {
 
 ```
 if (exports.myApp === 'undefined') {
-	var myApp = exports.myApp = {};
+  var myApp = exports.myApp = {};
 }
 
 exports.myApp.main = function main() {
-	return 'Hello world!';
+  return 'Hello world!';
 }
 ```
 
@@ -266,8 +266,6 @@ SS поддерживает 2 разных вида синтаксиса:
         /// Вызов метода sayHello
         += self.sayHello()
 
-
-
 /// Доопределяем родительский метод
 - block child->sayHello()
   /// Вызываем метод sayHello родителя
@@ -303,7 +301,6 @@ SS поддерживает 2 разных вида синтаксиса:
 </body>
 </html>
 ```
-
 
 При наследовании шаблона также наследуются входные параметры, декораторы шаблона, различные модификаторы - [вот тут](http://snakeskintpl.github.io/docs/guide-ru.html#inheritBasic) можно почитать подробнее.
 
