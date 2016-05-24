@@ -605,8 +605,8 @@ Snakeskin как основного языка шаблонов для Web. Го
 
 Также хочу поблагодарить коллектив [форума javascript.ru](http://javascript.ru/forum/) за&nbsp;идеи по&nbsp;развитию языка и&nbsp;поддержку.
 
-О&nbsp;найденных багах пишите&nbsp;в [Issues](https://github. com/SnakeskinTpl/Snakeskin/issues) на&nbsp;GitHub-e проекта, а&nbsp;появившиеся вопросы
-задавайте либо здесь в&nbsp;комментариях, либо&nbsp;в [Gitter](https://gitter. im/SnakeskinTpl/Snakeskin)&rsquo;е&nbsp;&mdash; я&nbsp;всегда с&nbsp;удовольствием
+О&nbsp;найденных багах пишите&nbsp;в [Issues](https://github.com/SnakeskinTpl/Snakeskin/issues) на&nbsp;GitHub-e проекта, а&nbsp;появившиеся вопросы
+задавайте либо здесь в&nbsp;комментариях, либо&nbsp;в [Gitter](https://gitter.im/SnakeskinTpl/Snakeskin)&rsquo;е&nbsp;&mdash; я&nbsp;всегда с&nbsp;удовольствием
 отвечу и&nbsp;объясню.
 
 Удачи!
