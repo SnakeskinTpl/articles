@@ -537,6 +537,7 @@ SS поддерживает 2 разных вида синтаксиса:
   - namespace demo
   - import Typograf from 'typograf'
 
+  /// Функцию-декоратор можно написать на JS или на SS
   - template typograf(params)
     - return
       () => target
