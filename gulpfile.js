@@ -2,33 +2,17 @@
 
 const
 	gulp = require('gulp'),
-	typograf = require('gulp-typograf'),
-	markdown = require('gulp-markdown-it'),
-	replace = require('gulp-replace'),
-	run = require('gulp-run');
+	$ = require('gulp-load-plugins')();
 
-function error() {
-	return (err) => {
-		console.error(err.message);
-	};
-}
-
-gulp.task('yaspeller', (cb) => {
-	run('yaspeller ./').exec()
-		.on('error', error())
-		.on('finish', cb);
-});
-
-gulp.task('typograf', (cb) => {
+gulp.task('yaspeller', () => $.run('yaspeller ./ --ignore-uppercase').exec().on('error', console.error));
+gulp.task('typograf', () =>
 	gulp.src('./*.md')
-		.pipe(markdown({options: {highlight: (str, lang) => `<source lang="${lang || 'js'}">${str}</source>`}}))
-		.on('error', error())
-		.pipe(replace(/<pre><code\s*.*?>|<\/code><\/pre>/g, ''))
-		.pipe(typograf({lang: 'ru'}))
-		.on('error', error())
+		.pipe($.plumber())
+		.pipe($.markdownIt({options: {highlight: (str, lang) => `<source lang="${lang || 'js'}">${str}</source>`}}))
+		.pipe($.replace(/<pre><code\s*.*?>|<\/code><\/pre>/g, ''))
+		.pipe($.typograf({locale: 'ru'}))
 		.pipe(gulp.dest('./'))
-		.on('end', cb);
-});
+);
 
-gulp.task('watch', () => gulp.watch('./*.md', ['yaspeller', 'typograf']));
-gulp.task('default', ['yaspeller', 'typograf', 'watch']);
+gulp.task('default', gulp.parallel(['yaspeller', 'typograf']));
+gulp.task('watch', () => gulp.watch('./*.md', gulp.parallel(['yaspeller', 'typograf'])));

@@ -13,11 +13,16 @@
   ],
 
   "dictionary": [
-    "/Snakeskin|SS|ES2015|ES6|CoffeeScript|TypeScript|TS|JS|JSDoc|HAML|Jade|TemplateToolkit2|MicroTemplate|Markdown/i",
-    "/Async|Koa|NeJS|SemVer|Sass|Stylus|Vue|WebPack|Django|DocumentFragment|GitHub/i",
-    "/amd|umd|commonjs|vDOM|XSLT|kobezzza|com/i",
-    "/ЯП|баг(и|ах|ов)?|кофепоинт(ах)?|шаблонизатор(ы|ов|у)?|шаблонизация|фреймворк(ами|и)?|й/",
-    "/бесшовно|форсились|фичи|фичастый|рюшечек|прокидывание|хотелок|фич(а|и)?|Ресига?/",
-    "/версионировани(е|я)?|подшаблон(а|ов|ы)?|регулярк(а|и|ах)|хардкод(ом)?|фидбэк/"
+    "Snakeskin|CoffeeScript|TypeScript|JSDoc|Jade|TemplateToolkit2|MicroTemplate|Markdown",
+    "Webpack|Browserify|RequireJS|Async|Koa|NeJS|SemVer|Sass|Stylus|Vue|WebPack|Django|DocumentFragment|GitHub|Gitter",
+    "async|amd|umd|commonjs|vDOM|XSLT|kobezzza|com|myApp",
+    "ts|js|ss|css|es6|es2015|haml|html|jsdoc|ru|en|javascript",
+    "ЯП|баг(и|ах|ов)?|кофепоинт(ах)?|шаблонизатор(ы|ов|у)?|шаблонизация|фреймворк(ами|и)?|й",
+    "бесшовно|форсились|фичи|фичастый|рюшечек|прокидывание|хотелок|фич(а|и)?|Ресига?",
+    "версионировани(е|я)?|подшаблон(а|ов|ы)?|регулярк(а|и|ах)|хардкод(ом)?|фидбэк",
+    "рендерер|рендерятся|рендеринга?",
+    "поинтах|Резиг|Порефакторил|зарелизил|апать|хех|инстанса",
+    "trikadin",
+    "фронтэндером|Едадиле"
   ]
 }

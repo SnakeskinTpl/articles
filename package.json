@@ -11,11 +11,15 @@
   },
   "homepage": "https://github.com/SnakeskinTpl/articles",
   "devDependencies": {
-    "gulp": "^3.8.11",
+    "@types/gulp": "^4.0.5",
+    "@types/gulp-load-plugins": "0.0.31",
+    "gulp": "^4.0.0",
+    "gulp-load-plugins": "^1.5.0",
     "gulp-markdown-it": "^0.1.1",
-    "gulp-replace": "^0.5.4",
-    "gulp-run": "^1.6.7",
-    "gulp-typograf": "^1.0.5",
-    "yaspeller": "^2.1.0"
+    "gulp-plumber": "^1.2.0",
+    "gulp-replace": "^0.6.1",
+    "gulp-run": "^1.7.1",
+    "gulp-typograf": "^3.1.0",
+    "yaspeller": "^4.0.3"
   }
 }
